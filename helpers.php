@@ -25,8 +25,5 @@
     */
     function printArray(array $numbers) 
     {
-        foreach($numbers as $number){
-            echo $number . ' , ';
-        }
-        echo "\n";
+        echo implode(',',$numbers). "\n";        
     }

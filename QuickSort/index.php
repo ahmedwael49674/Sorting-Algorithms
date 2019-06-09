@@ -7,7 +7,6 @@
         if(count($arr) <= 2){
             return $arr;
         }
-        $pivotIndex  =   key($arr);
         $pivot       =   array_shift($arr);
         $left        =   $right  =   [];
         for($i = 0; $i<=count($arr)-1; $i++){
